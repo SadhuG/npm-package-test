@@ -1,0 +1,21 @@
+{
+  "name": "prettier-tailwind-class-order-setup",
+  "version": "1.0.0",
+  "description": "CLI tool to configure .prettierrc with Tailwind plugin",
+  "type": "module",
+  "bin": {
+    "prettier-tailwind-class-order-setup": "./bin/setup-prettier.js"
+  },
+  "dependencies": {
+    "app-root-path": "^3.1.0"
+  },
+  "keywords": [
+    "prettier",
+    "tailwind",
+    "tailwind classes",
+    "plugin",
+    "setup"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
