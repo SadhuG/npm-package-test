@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import { execSync } from 'child_process';
+import fs from 'fs';
 import { createRequire } from 'module';
+import path from 'path';
 import { ensurePrettierPlugin } from '../lib/ensure-prettier.js';
 
 const require = createRequire(import.meta.url);
@@ -16,12 +18,8 @@ function getPackageManager() {
 
 // Checks if a dependency is installed locally in the project
 function isInstalled(pkg) {
-  try {
-    require.resolve(pkg);
-    return true;
-  } catch {
-    return false;
-  }
+  const modulePath = path.join(process.cwd(), 'node_modules', pkg);
+  return fs.existsSync(modulePath);
 }
 
 // Installs required dependencies using the detected package manager
