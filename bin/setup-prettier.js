@@ -1,6 +1,8 @@
-import { ensurePrettierPlugin } from '../lib/ensure-prettier.js';
+#!/usr/bin/env node
+
 import { execSync } from 'child_process';
 import { createRequire } from 'module';
+import { ensurePrettierPlugin } from '../lib/ensure-prettier.js';
 
 const require = createRequire(import.meta.url);
 
