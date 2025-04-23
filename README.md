@@ -20,11 +20,11 @@ This CLI tool checks for the existence of a `.prettierrc` file in your project (
 You can run the setup script using your preferred package manager:
 
 ```bash
-npx prettier-tailwind-class-order-setup
+npm install --save-dev prettier-tailwind-class-order-setup
 # or
-pnpm dlx prettier-tailwind-class-order-setup
+pnpm add --dev prettier-tailwind-class-order-setup
 # or
-yarn create prettier-tailwind-class-order-setup
+yarn add --dev create prettier-tailwind-class-order-setup
 ```
 
 This will:
@@ -77,7 +77,7 @@ Here's how you can run the tool in a new project:
 ```bash
 mkdir my-project && cd my-project
 npm init -y
-npx prettier-tailwind-class-order-setup
+npm install --save-dev prettier-tailwind-class-order-setup
 ```
 
 This will create or modify the `.prettierrc` file with the Tailwind CSS plugin configured.
