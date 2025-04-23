@@ -1,7 +1,11 @@
 {
   "name": "prettier-tailwind-class-order-setup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to configure .prettierrc with Tailwind plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SadhuG/npm-package-test"
+  },
   "type": "module",
   "bin": {
     "prettier-tailwind-class-order-setup": "./bin/setup-prettier.js"
