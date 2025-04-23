@@ -20,11 +20,11 @@ This CLI tool checks for the existence of a `.prettierrc` file in your project (
 You can run the setup script using your preferred package manager:
 
 ```bash
-npm install --save-dev prettier-tailwind-class-order-setup
+npm install -D prettier-tailwind-class-order-setup
 # or
-pnpm add --dev prettier-tailwind-class-order-setup
+pnpm add -D prettier-tailwind-class-order-setup
 # or
-yarn add --dev create prettier-tailwind-class-order-setup
+yarn add -D create prettier-tailwind-class-order-setup
 ```
 
 This will:
